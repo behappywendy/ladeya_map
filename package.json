@@ -1,0 +1,36 @@
+{
+  "name": "ladeya ",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "test:unit": "vitest --environment jsdom",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "test": "jest"
+  },
+  "dependencies": {
+    "pinia": "^2.0.14",
+    "vue": "^3.2.37",
+    "vue-router": "^4.0.16"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.18.2",
+    "@rushstack/eslint-patch": "^1.1.0",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "@vue/test-utils": "^2.0.0-rc.18",
+    "@vue/vue3-jest": "^28.0.0",
+    "babel-jest": "^28.1.1",
+    "eslint": "^8.5.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "install": "^0.13.0",
+    "jest": "^28.1.1",
+    "jest-environment-jsdom": "^28.1.1",
+    "jsdom": "^20.0.0",
+    "npm": "^8.13.1",
+    "prettier": "^2.5.1",
+    "vite": "^2.9.12",
+    "vitest": "^0.15.1"
+  }
+}
